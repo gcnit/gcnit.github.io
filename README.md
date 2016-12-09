@@ -1,4 +1,4 @@
-gauravchandak.me
+gcnit.github.io
 =======
 
-Visit my personal website: http://gauravchandak.me
+Visit my personal website: http://gcnit.github.io

@@ -1,8 +1,7 @@
 var navs = {
   "#nav-home": "#content-home",
   "#nav-resume": "#content-resume",
-  "#nav-science": "#content-science",
-  "#nav-development": "#content-development",
+  "#nav-blog": "#content-blog",
   "#nav-contact": "#content-contact"
 };
 // This map determines the page left/right order
@@ -10,18 +9,25 @@ var contents = {
   "#none": 0,
   "#content-home": 1,
   "#content-resume": 2,
-  "#content-contact": 3
+  "#content-blog": 3,
+  "#content-contact": 4
 };
 var heights = {
   "#content-home": "content-home-height",
   "#content-resume": "content-resume-height",
+  "#content-blog": "content-blog-height",
   "#content-contact": "content-contact-height"
 };
 var scrollers = {
   // clicked scroller link  // link to scroll to      // nav container that scroll to is in 
   "#scroller-home": [ "#", "#nav-home" ],
   "#scroller-resume": [ "#", "#nav-resume" ],
+  "#scroller-blog": [ "#", "#nav-blog" ],
   "#scroller-contact": [ "#", "#nav-contact" ],
+  "#scroller-home-1": [ "#", "#nav-home" ],
+  "#scroller-resume-1": [ "#", "#nav-resume" ],
+  "#scroller-blog-1": [ "#", "#nav-blog" ],
+  "#scroller-contact-1": [ "#", "#nav-contact" ],
   "#scroller-employment": [ "#resume-employment", "#nav-resume" ],
   "#scroller-education": [ "#resume-education", "#nav-resume" ],
   "#scroller-skills": [ "#resume-skills", "#nav-resume" ],

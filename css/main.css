@@ -16,6 +16,9 @@ fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
 .content-resume-height {
   height: 2000px; }
 
+.content-blog-height {
+  height: 500px; }
+
 .content-contact-height {
   height: 300px; }
 
@@ -105,6 +108,11 @@ h1 {
   margin: 0;
   cursor: pointer;
   z-index: 1; }
+
+#blog-icons {
+  margin: 0 auto;
+  height: 70px;
+  width: 70px; }
 
 #contact-icons {
   margin: 0 auto;
@@ -621,6 +629,13 @@ h1 {
 .resume-subtext {
   font-size: 16px;
   margin: 30px 0; }
+
+#content-blog div ul {
+  margin: 10px 0 10px 30px; }
+  #content-blog div ul li {
+    margin-bottom: 10px; }
+    #content-blog div ul li ul li {
+      list-style-type: none; }
 
 table {
   width: 100%; }

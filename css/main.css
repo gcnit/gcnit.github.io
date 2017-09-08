@@ -14,13 +14,13 @@ fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
   height: 675px; }
 
 .content-resume-height {
-  height: 2000px; }
+  height: 2200px; }
 
 .content-blog-height {
   height: 500px; }
 
 .content-contact-height {
-  height: 300px; }
+  height: 500px; }
 
 html {
   width: 100%;
@@ -57,7 +57,8 @@ h4 {
   font-size: 2.0em; }
 
 a:link, a:visited {
-  color: #3498DB; }
+  color: #3498DB;
+  text-decoration: none; }
 
 #title_nav_background {
   margin-bottom: -175px;
@@ -119,10 +120,28 @@ h1 {
   height: 70px;
   width: 70px; }
 
+#icon-LML {
+  top: -1px;
+  height: 180px;
+  width: 180px;
+  margin: 0;
+  border-radius: 3px;
+  background: transparent;
+  cursor: pointer; }
+
 #icon-LinkedIn {
   top: -1px;
   height: 67px;
   width: 67px;
+  margin: 0;
+  border-radius: 3px;
+  background: transparent;
+  cursor: pointer; }
+
+#icon-Gmail {
+  top: -1px;
+  height: 15px;
+  width: 20px;
   margin: 0;
   border-radius: 3px;
   background: transparent;

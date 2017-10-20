@@ -1,4 +1,4 @@
-gcnit.github.io
+gcnit.co
 =======
 
-Visit my personal website: http://gcnit.github.io
+Visit my personal website: http://gcnit.co

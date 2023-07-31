@@ -1,4 +1,4 @@
-gcnit.co
+gauravchandak.com
 =======
 
-Visit my personal website: http://gcnit.co
+Visit my personal website: https://gauravchandak.com
